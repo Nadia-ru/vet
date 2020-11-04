@@ -1,0 +1,111 @@
+.center-img {
+  display: block;
+  margin: 0 auto;
+    }
+.img2{
+  margin-top: 50px;
+}
+.img-vniz{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+a{
+    text-decoration: none;
+}  
+.knopka{
+ text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  position: relative;
+  color: white;
+  border: 1px solid rgba(255,255,255,.4);
+  background: none;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.knopka:before,
+.knopka:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+.knopka:before {
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+}
+.knopka:after {
+  top: 0;
+  right: 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+}
+.knopka:hover:before,
+.knopka:hover:after{
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  
+}
+.knopka:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+.knopka:hover:after {
+    text-decoration: none;
+    transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+.knopka:hover {background: rgba(255,255,255,.2);}
+.menu{
+    margin-top: 0px;
+    border-radius:10px 10px 10px 10px ;   
+}
+.glavnaia{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius:50px 50px 50px 50px ;
+}
+.vnizy{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:70px 70px 70px 70px ;
+    background: rgba(255, 255, 255, 0.3)
+}
+.imgleft{
+    text-align:left;
+  
+}
+.aw{
+  font-size:14pt;
+  font-family: 'Montserrat', sans-serif;
+  }
+.krug{
+  border-radius:300px 300px 300px 300px ;
+  margin-top: 50px;
+  width:300px;
+  height:300px;
+}
+.aw2{ 
+  font-weight:bold;
+  font-size:18pt;
+  font-family: 'Montserrat', sans-serif;
+  }
+.pbol{
+  font-family: 'Montserrat', sans-serif;
+  font-size:18pt;
+  display: flex;
+  justify-content: center;
+}
